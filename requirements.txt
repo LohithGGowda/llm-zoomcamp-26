@@ -1,0 +1,20 @@
+# LLM Zoomcamp 2026 — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# LLM API client (used with Groq's OpenAI-compatible endpoint)
+openai>=1.0.0
+
+# HTTP requests
+requests>=2.32.0
+
+# --- Module 02: Vector Search ---
+onnxruntime>=1.17.0       # ONNX inference runtime (no PyTorch needed)
+tokenizers>=0.19.0        # HuggingFace fast tokenizers
+minsearch>=0.1.1          # Minimalistic text + vector search
+gitsource>=0.0.5          # Read files from GitHub repos
+huggingface-hub>=0.23.0   # Download models from HuggingFace Hub
+numpy>=1.26.0             # Array math (dot products, matrix ops)
+
+# --- Dev / Notebook ---
+jupyter>=1.0.0
+ipykernel>=6.0.0

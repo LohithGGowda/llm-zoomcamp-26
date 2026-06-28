@@ -1,3 +1,18 @@
-venv
-.venv
+venv/
+.venv/
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded models (large binary files — run download.py to recreate)
+homework/module_02/models/
+
+# OS
+.DS_Store
